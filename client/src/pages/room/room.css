@@ -1,0 +1,126 @@
+.room-body{
+    background-image: url(../../assets/roombackground.png);
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    color:#fff;
+    
+}
+.box{
+    background-color:hsla(0, 0%, 100%, 0.1);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 18.261890411376953px 22.827362060546875px 0px #0000000D;
+    box-shadow: -0.7609121203422546px 0.7609121203422546px 0.7609121203422546px -1.5218242406845093px #FFFFFF59 inset;
+    box-shadow: 0px 0.7609121203422546px 6.087296962738037px 0px #FFFFFF59 inset;
+}
+.room-container{
+    padding:  10px 50px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    min-width: fit-content;
+}
+.room-chatbox{
+    width: 755px;
+    max-height: 275px;
+    padding: 10px;
+    border:none;
+    border-radius:33.3px;
+}
+.chat-display{
+    height:200px;
+    overflow-y: scroll;
+    padding:2px;
+    flex:1;
+    flex-direction: column;
+}
+.chat-controller{
+    display:flex;
+    background-color:#C4C4C4;
+    width: 720px;
+    max-height: 20px;
+    top: 402px;
+    left: 32px;
+    padding: 14px 16px 13px 20px;
+    border-radius: 16px;
+    border: 1px;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-around;
+}
+.chat-input{
+    background-color: transparent;
+    border:none;
+    outline: none;
+    flex:1;
+    font-size:14px;
+    line-height: 20px;
+}
+.chat-insert{
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    border:none;
+    
+}
+.chat-send{
+    background-color: #297BCA;
+    width: 35px;
+    height: 35px;
+    border:none;
+    border-radius: 11px;
+}
+.chat-send:hover{
+    background-color: #00529e;
+}
+.room-controller{
+    max-width: 920px;
+    display: flex;
+    gap:100px;
+    
+}
+.video-controller{
+    min-width:500px;
+    max-height: 176px;
+    border-radius: 33.34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.controller-button{
+    background-color:transparent;
+    border:none;
+    
+}
+.controller-button-img{
+    height: 100px;
+    width:100px;
+}
+.audio-controller
+,.controller-icon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.audio-controller{
+    width: 156px;
+    height: 176px;
+    top: 628px;
+    left: 980px;
+    border-radius: 33.34px;
+
+}
+.controller-text{
+    font-size: 25.39px;
+    line-height:41.09px;
+    letter-spacing: 0.22 px;
+    font-weight:700;
+}
+.video-img{
+    height:140px;
+}
